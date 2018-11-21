@@ -1,0 +1,109 @@
+.row{
+    padding: 50px;
+}
+.profile-data{
+    position: relative;
+    background: #1c6979;
+    padding-bottom: 50px;
+    color: #ffffff
+}
+
+.card-img-top{
+    width: 166px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.info-section{
+    margin-bottom: 20px;
+}
+
+.info-section a{
+    color: #fff;
+    text-decoration: none
+}
+
+.info-section a:hover{
+    font-weight: 700;
+}
+
+.card,
+.list-group-item{
+    background: none;
+    border: none
+}
+
+.engineer-name{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.engineer-dev{
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+.title,
+.text,
+.list-group-item{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.text,
+.list-group-item{
+    font-size: 14px;
+    padding: 3px 0;
+}
+
+.progress{
+    position: absolute;
+    top: 9px;
+    right: -45px;
+    width: 70px;
+    background: none;
+    border: 1px solid #fff 
+}
+
+.progress-bar{
+    background: #fff;
+}
+
+.works-skills {
+    padding-top: 50px;
+    background: #fbfbfb;
+    border-top-right-radius: 10px;
+    box-shadow: 4px 0px 5px 1px #ddd;
+}
+
+.company-work{
+    margin-bottom: -7px;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.skills-group{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin: -2px;
+}
+
+.progress-full{
+    border: #1c6979 1px solid;
+    right: 18px;
+}
+
+.progress-bar-full{
+    background: #1c6979
+}
+
+
+@media screen and (max-width:670px){
+    .skills-group{
+        width: 100%
+    }
+}

@@ -1,6 +1,3 @@
-.row{
-    padding: 50px;
-}
 .profile-data{
     position: relative;
     background: #1c6979;
@@ -8,7 +5,7 @@
     color: #ffffff
 }
 
-.card-img-top{
+ .card-img-top{
     width: 166px;
     margin: auto;
     border-radius: 50%;
@@ -19,19 +16,20 @@
     margin-bottom: 20px;
 }
 
+.card,
+.list-group-item{
+    background: none;
+    border: none
+}
+
 .info-section a{
     color: #fff;
     text-decoration: none
 }
 
 .info-section a:hover{
+    transition: .5s;
     font-weight: 700;
-}
-
-.card,
-.list-group-item{
-    background: none;
-    border: none
 }
 
 .engineer-name{
@@ -45,12 +43,19 @@
     font-size: 14px;
 }
 
-
 .title,
 .text,
 .list-group-item{
     font-size: 20px;
     font-weight: 100;
+}
+
+.works-skills{
+    padding-top: 50px;
+}
+
+.progress-bar{
+    background: #fff;
 }
 
 .text,
@@ -60,50 +65,64 @@
 }
 
 .progress{
-    position: absolute;
-    top: 9px;
-    right: -45px;
-    width: 70px;
     background: none;
     border: 1px solid #fff 
 }
 
-.progress-bar{
-    background: #fff;
-}
-
-.works-skills {
-    padding-top: 50px;
-    background: #fbfbfb;
-    border-top-right-radius: 10px;
-    box-shadow: 4px 0px 5px 1px #ddd;
-}
-
-.company-work{
-    margin-bottom: -7px;
-    font-size: 18px;
-    font-weight: 400
-}
-
-.skills-group{
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-    margin: -2px;
-}
-
 .progress-full{
     border: #1c6979 1px solid;
-    right: 18px;
+    /* right: 18px; */
 }
 
 .progress-bar-full{
     background: #1c6979
 }
 
+.company-work{
+    margin-bottom: -2px;
+    font-size: 18px;
+    font-weight: 400
+}
 
-@media screen and (max-width:670px){
+
+@media screen and (min-width:670px){
+
+    .progress{
+        position: absolute;
+        top: 9px;
+        right: -45px;
+        width: 70px;
+    }
+
+    .works-skills {
+        padding-top: 50px;
+        background: #fbfbfb;
+        border-top-right-radius: 10px;
+        box-shadow: 4px 0px 5px 1px #ddd;
+    }
+
+   
+
     .skills-group{
-        width: 100%
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        margin: -2px;
+    }
+
+    .progress-full{
+        border: #1c6979 1px solid;
+        right: 18px;
+    }
+
+    .progress-bar-full{
+        background: #1c6979
+    }
+}
+
+@media screen and (min-width:750px){
+
+    .row{
+        padding: 50px;
     }
 }

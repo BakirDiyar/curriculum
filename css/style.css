@@ -5,8 +5,8 @@
     color: #ffffff
 }
 
- .card-img-top{
-    width: 166px;
+.card-img-top{
+    width: 176px;
     margin: auto;
     border-radius: 50%;
     border: 1px solid #fff;
@@ -20,6 +20,11 @@
 .list-group-item{
     background: none;
     border: none
+}
+
+.card{
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .info-section a{
@@ -90,7 +95,7 @@
     .progress{
         position: absolute;
         top: 9px;
-        right: -45px;
+        right: 42px;
         width: 70px;
     }
 
@@ -123,6 +128,10 @@
 @media screen and (min-width:750px){
 
     .row{
-        padding: 50px;
+        padding: 15px;
+    }
+
+    .card{
+        margin-top: 20px;
     }
 }
